@@ -8,9 +8,10 @@ function App() {
   return (
     <div className="App">
       {/* Navbar */}
+      
+
       {/* Banner */}
       <Banner />
-
       <Row
         title="NETFLIX ORIGINALS"
         fetchUrl={requests.fetchNetflixOriginals}
